@@ -10,7 +10,7 @@ const About = () => {
         <div className="about-left">
           <h2>About Me</h2>
           <p>
-            I’m a 3rd-year Computer Engineering student passionate about Artificial Intelligence,
+            I’m a last year Computer Engineering student passionate about Artificial Intelligence,
             Large Language Models, and Computer Vision. I’ve worked on projects like
             face recognition, LLM fine-tuning, and RAG systems.
           </p>

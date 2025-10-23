@@ -13,7 +13,7 @@ const Home = () => {
       
         <div className="home-right">
           <h1>Hi, I'm Kaan Sezen 👋</h1>
-          <p>Computer Engineering Student • AI Enthusiast • Developer</p>
+          <p>Computer Engineering Student •Future AI Engineer • AI/ML Researcher • AI Developer </p>
           <button
             onClick={() =>
               document

@@ -3,6 +3,7 @@ import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
+import project6 from "../assets/project6.png";
 import "../styles/Projects.css";
 
 
@@ -49,6 +50,14 @@ const Projects = () => {
           <p>Streamlit app that generates images from text prompts using dalle-3 model.</p>
                     <a href="https://github.com/KaanSezen1923/AI-Image-Generator" target="_blank" rel="noopener noreferrer">
             View on GitHub
+          </a>
+        </div>
+        <div className="project-card">
+          <h3>MovieRag Vercel App</h3>
+          <img src={project6} alt="MovieRag Vercel App" className="project-image" />
+          <p>React website deployed vercel make a movie recommendations uses graphrag arthitecture.</p>
+          <a href="https://movierag.vercel.app">
+            Try MovieRag
           </a>
         </div>
       </div>

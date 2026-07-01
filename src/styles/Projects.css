@@ -48,21 +48,28 @@
   margin: 0;
   background-color: #f0f4ff;
   line-height: 1.4;
+  text-align: center;
 }
 
 /* Proje görseli */
 .project-image {
   width: 100%;
-  height: 180px;
-  object-fit: cover;
+  aspect-ratio: 16 / 9;
+  object-fit: contain; /* Dikey görsellerin kırpılmasını engeller */
+  object-position: center;
+  background-color: #f8f9fa; /* Yanlarda kalacak boşluklar için hafif bir arkaplan eklendi */
+  padding: 0.5rem; /* Görsellerin kart kenarlarına sıfır yapışmaması için */
+  box-sizing: border-box;
+  display: block;
 }
 
 /* Açıklama */
 .project-card p {
-  padding: 0.5rem 1rem;
+  padding: 1rem;
   font-size: 1rem;
   color: #555;
   line-height: 1.5;
+  flex-grow: 1; /* Açıklama metinleri farklı uzunlukta olsa bile butonları en alta iter */
 }
 
 /* GitHub linki (kart footer) */
@@ -77,6 +84,7 @@
   border-radius: 8px;
   text-align: center;
   transition: all 0.3s ease;
+  margin-top: auto; /* flex-grow ile birlikte butonların her kartta eşit hizada kalmasını sağlar */
 }
 
 .project-card a:hover {
@@ -91,12 +99,11 @@
   }
 
   .project-image {
-    height: 160px;
+    height: 200px; /* Mobilde görsellerin çok ezilmemesi için height değeri artırıldı */
   }
 
   .project-card a {
-    width: 90%;
+    width: calc(100% - 2rem);
     margin: 1rem auto;
   }
 }
-

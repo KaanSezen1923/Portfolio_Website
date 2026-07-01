@@ -4,6 +4,8 @@ import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.png";
+import project7 from "../assets/project7.png";
+import project8 from "../assets/project8.jpeg";
 import "../styles/Projects.css";
 
 
@@ -12,6 +14,22 @@ const Projects = () => {
     <section id="projects" className="section">
       <h2>Projects</h2>
       <div className="project-list">
+        <div className="project-card">
+          <h3>Süt Sihirbazı</h3>
+          <img src={project7} alt="Süt Sihirbazı" className="project-image" />
+          <p>A multi-agent AI system that allows farmers to interact with their own data without relying on cloud services.</p>
+          <a href="https://github.com/KaanSezen1923/Sut_Sihirbazi_Bitirme_Projesi" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+          </a>
+        </div>
+        <div className="project-card">
+          <h3>MovieMCP</h3>
+          <img src={project8} alt="MovieMCP" className="project-image" />
+          <p>A movie recommendation system with an MCP server that connects to the TMDB API for personalized movie recommendations.</p>
+          <a href="https://github.com/KaanSezen1923/Movie_MCP" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+          </a>
+        </div>
         <div className="project-card">
           <h3>Face Recognition System</h3>
           <img src={project1} alt="Face Recognition System" className="project-image" />

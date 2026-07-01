@@ -9,7 +9,7 @@ const About = () => {
           <h2>About Me</h2>
           <div className="intro-text">
             <p>
-              Hi! I'm <strong>Necmettin Kaan Sezen</strong>, a final-year Computer Engineering student with a passion for building intelligent systems.
+              Hi! I'm <strong>Necmettin Kaan Sezen</strong>, a  Computer Engineer with a passion for building intelligent systems.
             </p>
           </div>
 
@@ -23,6 +23,12 @@ const About = () => {
           <div className="projects-highlight">
             <h3>Featured Projects</h3>
             <ul>
+              <li>
+                <strong>Süt Sihirbazı</strong> - A multi agent Aı system that provides farmers can talk to own data without outside of cloud
+              </li>
+              <li>
+                <strong>MovieMCP</strong> - A movie rcommendatio system with mcp server conect tmdb api for personalized movie recommendation.
+              </li>
               <li>
                 <strong>MovieRAG</strong> — A GraphRAG-based recommendation system using multi-agent reasoning and Neo4j graph databases
               </li>
@@ -38,7 +44,7 @@ const About = () => {
           <div className="tech-stack">
             <h3>Tech Stack</h3>
             <p>
-              LangChain • LangGraph • FastAPI • React/React Native • Firebase • Gemini • OpenAI • Neo4j
+              LangChain • LangGraph • FastAPI • React/React Native • Firebase • Gemini • OpenAI • Neo4j • PostgreSQL • Docker • Git • Python • JavaScript • TypeScript
             </p>
           </div>
 
@@ -59,7 +65,7 @@ const About = () => {
 
         <div className="about-right">
           <img src={profilePic} alt="Kaan Sezen" className="profile-pic" />
-          <div className="image-caption">Future AI Engineer</div>
+          <div className="image-caption">AI Engineer</div>
         </div>
       </div>
     </section>

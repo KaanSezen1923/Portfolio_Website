@@ -64,6 +64,7 @@ const Projects = () => {
         </div>
         <div className="project-card">
           <h3>AI Image Generator App</h3>
+          {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
           <img src={project5} alt="AI Image Generator App" className="project-image" />
           <p>Streamlit app that generates images from text prompts using dalle-3 model.</p>
                     <a href="https://github.com/KaanSezen1923/AI-Image-Generator" target="_blank" rel="noopener noreferrer">
